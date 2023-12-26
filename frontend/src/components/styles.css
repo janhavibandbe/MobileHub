@@ -1,0 +1,128 @@
+.home-container .header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+.home-container .header span{
+    color: rgb(82, 174, 227);
+    text-shadow: 2px 2px white;
+}
+
+.top-section{
+    padding-top: 2rem;
+}
+
+.home-container .row .fa-left-long{
+    margin-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+    margin-top: .5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.details .label p{
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.details .info input{
+    height:80%;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.home-container .filters .heading{
+    text-align: center;
+}
+
+.home-container .filters .heading h5{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin-left: 2rem;
+    width: 8rem;
+    background: black;
+    border-radius: 2rem;
+    color: white;
+}
+
+.home-container .filters .filter{
+    width: 13rem;
+}
+
+.home-container .filters .filter select{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.form-select:focus{
+    box-shadow: none;
+}
+
+
+.form-select::after{
+    color: white;
+    background-color: white;
+}
+
+.home-container .filters .filter select option{
+    color: white;
+}
+
+.bottom-section .container{
+    border: 2px solid white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bottom-section .table thead tr td{
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.bottom-section .table tbody tr td{
+    color: white;
+    font-size: 1rem;
+}
+
+.bottom-section .table tbody tr td i{
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.bottom-section .table tbody tr td .fa-trash{
+    color: rgb(226, 193, 46);
+}
+
+.bottom-section .table tbody tr td .fa-pen-to-square{
+    color: rgb(117, 219, 165);
+}
+
+.bottom-section .table tbody tr td,
+.bottom-section .table thead tr td{
+    background: transparent;
+}
+
+.bottom-section .table tbody .no-result{
+    text-align: center;
+}
